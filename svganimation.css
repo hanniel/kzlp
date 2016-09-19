@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  </head>
+  <body>
+
+  <?xml version="1.0" encoding="utf-8"?>
+  <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
+  <style type="text/css">
+  	.st0{fill:#CCCCCC;}
+  	.st1{fill:#B3B3B3;}
+  	.st2{fill:#FFFFFF;}
+  	.st3{fill:#F7931E;}
+  </style>
+  <polygon class="block" id="mobile" class="st0" points="497.7,657.2 250.1,419.6 250.6,377.4 368.7,296.2 410.6,296.1 653.2,489.7 653.8,532.3
+  	540.6,657.4 "/>
+  <polygon id="shadow" class="st1" points="250.8,407 497.7,639 540.5,639.3 653.2,514 653.8,532.3 540.6,657.4 497.7,657.2
+  	250.1,419.6 "/>
+  <polygon id="screen" class="st2" points="488.2,589.1 273.3,405.8 409.7,309 611.6,474.6 "/>
+  <polygon id="speaker" class="st1" points="278.7,384.5 274.9,380.4 385.4,307.8 388.5,310.5 "/>
+  <ellipse id="button" transform="matrix(0.781 -0.6245 0.6245 0.781 -219.6923 479.5033)" class="st1" cx="573.9" cy="553" rx="19.6" ry="17.3"/>
+  <polygon id="logo" class="st3" points="686,172 632,172 587,234.7 587,286 635.6,353 696,353 618.5,257.5 "/>
+  </svg>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+  <script src="SVGanimation.js"></script>
+
+  </body>
+</html>
