@@ -1,11 +1,21 @@
 h1 {
   font-family: 'Raleway', sans-serif;
-  font-size:48;
+  font-weight: 200;
+  font-size:72;
+  line-height: 1;
   margin: 0;
 }
 
 h2 {
   font-family: 'Raleway', sans-serif;
   font-size:18;
-    margin: 0;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+a {
+  font-family: 'Raleway', sans-serif;
+  font-size:18;
+  color: #ff6666;
+  margin: 0;
 }
