@@ -1,0 +1,9 @@
+roboto mono
+scroll past the end
+show indent guide
+
+
+preview html
+emmet
+minimap
+pigments
