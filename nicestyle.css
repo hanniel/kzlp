@@ -19,12 +19,22 @@
   width:33%;
   box-sizing:border-box;
   padding: 5%;
+  min-height: 300px;
+}
+.column-tall {
+  float:left;
+  width:33%;
+  box-sizing:border-box;
+  padding: 5%;
+  min-height: 600px;
 }
 .bigcolumn {
   float:left;
   width:66%;
   box-sizing:border-box;
   padding: 5%;
+  min-height:300px;
+
 }
 @media screen and (max-width: 800px) {
 .container {
@@ -35,11 +45,19 @@
   float:none;
   width:auto;
   padding:24px 16px;
+  min-height: 200px;
+}
+.column-tall {
+  float:none;
+  width:auto;
+  padding:24px 16px;
+  min-height: 200px;
 }
 .bigcolumn {
   float:none;
   width:auto;
   padding:24px 16px;
+  min-height: 200px;
 }
 }
 
@@ -52,7 +70,7 @@ h1 {
   font-weight: 400;
   font-style:italic;
   font-size:4em;
-  line-height: 0.7;
+  line-height: 0.9;
   color:white;
   margin: 0;
 }
