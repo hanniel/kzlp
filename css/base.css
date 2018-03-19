@@ -353,7 +353,8 @@ p{
 	.button{
 			padding: 8px;
 			font-size: 14px;
-			margin:0 calc(50% - 100px) !important;
+			margin: 20px calc(50% - 100px) 0 calc(50% - 100px);
+
 		}
 	.content {
 			height: auto;
@@ -384,7 +385,7 @@ p{
 		padding:2em 16px;
 	}
 }
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 400px) {
 	.content__title {
 		font-size:1.6em;
 	}
