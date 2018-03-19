@@ -24,7 +24,7 @@
 
 .imgloaded .content__title,
 .imgloaded .content__text,
-.small-headline, .casestudy {
+.small-headline,  {
 	animation-name: glitch-anim-text;
 	animation-duration: var(--time-anim);
 	animation-timing-function: linear;
