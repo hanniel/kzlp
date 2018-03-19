@@ -309,8 +309,6 @@ p{
 	margin: 0 calc(50% - 50px);
 }
 @media screen and (max-width: 55em) {
-
-
 	.mainnav {
 		position:absolute;
 			flex-direction: column;
@@ -355,7 +353,7 @@ p{
 	.button{
 			padding: 8px;
 			font-size: 14px;
-			margin:0 auto;
+			margin:0 calc(50% - 100px) !important;
 		}
 	.content {
 			height: auto;
@@ -384,6 +382,11 @@ p{
 	.casestudy{
 		flex-direction: column;
 		padding:2em 16px;
+	}
+}
+@media screen and (max-width: 30em) {
+	.content__title {
+		font-size:1.6em;
 	}
 }
 
