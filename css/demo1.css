@@ -24,7 +24,7 @@
 
 .imgloaded .content__title,
 .imgloaded .content__text,
-.small-headline {
+.small-headline, .casestudy {
 	animation-name: glitch-anim-text;
 	animation-duration: var(--time-anim);
 	animation-timing-function: linear;
@@ -57,13 +57,12 @@
 .what-we-do{
 	position:relative;
 	text-align:center;
-	padding:2em 2em;
-	margin-top: 10%;
+	padding:2em 3em;
+	margin: 10% 0 10% 0;
 	width:100%;
 	display:flex;
   flex-direction: row;
 	justify-content: center;
-
 }
 .what-we-do div{
 	width:100%
@@ -73,8 +72,52 @@
 	height:auto;
 	margin: 0 calc(50% - 50px);
 }
+.casestudy{
+	position:relative;
+	text-align:center;
+	padding:1em 1em;
+	width:100%;
+	display:flex;
+  flex-direction: row;
+	justify-content: center;
+}
+.casestudy img{
+	width:100%;
+	height:auto;
+	margin:0;
+	padding:0;
+}
 h2{
-	margin: 0 0 2em 0;
+	margin: 0 0 10px 0;
+}
+p{
+	width:100%;
+	max-width: 320px;
+	margin:0 auto 2em auto;
+	letter-spacing: 0.01em;
+	line-height: 1.4;
+}
+.headline-center{
+	padding:2em 2em 30px 2em;
+	margin: 10% auto 0 auto;
+	width:100%;
+	max-width: 320px;
+	text-align: center;
+}
+.our-clients{
+	position:relative;
+	text-align:center;
+	padding:0 2em 10% 2em;
+	width:100%;
+	display:flex;
+  flex-direction: row;
+	justify-content: center;
+	flex-wrap:wrap;
+}
+.our-clients img{
+	width:100px;
+	height:auto;
+	margin: 0 calc(50% - 50px);
 }
 @media screen and (max-width: 55em) {
 	.content__text {
@@ -91,6 +134,10 @@ h2{
 		text-align:center;
 	}
 	.what-we-do{
+		flex-direction: column;
+		padding:2em 16px;
+	}
+	.casestudy{
 		flex-direction: column;
 		padding:2em 16px;
 	}
