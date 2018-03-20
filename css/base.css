@@ -359,7 +359,7 @@ p{
 .our-clients{
 	position:relative;
 	text-align:center;
-	padding:0 2em 100px 2em;
+	padding:0 16px 100px 16px;
 	width:100%;
 	display:flex;
   flex-direction: row;
